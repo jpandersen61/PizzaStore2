@@ -6,8 +6,8 @@ namespace PizzaStore2
 {
     class Pizza
     {
-        public int  Number{ get; private set; }
-        public string Name { get; private set; }
+        public int  Number{ get;  set; }
+        public string Name { get;  set; }
 
         public double Price { get; private set; }
 
